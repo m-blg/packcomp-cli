@@ -1,7 +1,4 @@
 CLI_VERSION = 1.0.0
-LIB_VERSION = 1.1.0
-
-LIB_VERSION_MAJOR = $(word 1, $(subst ., , $(LIB_VERSION)))
 
 ifndef debug
 debug=0 # Default mode
