@@ -16,7 +16,7 @@ INSTALL_PREFIX_BIN = /usr/bin
 
 CC = g++
 INCS = -Isrc
-LIBS = -l:libcurl.so.4 -l:libjson-c.so.5 -l:packcomp.so.1
+LIBS = -l:libcurl.so.4 -l:libjson-c.so.5 -l:libpackcomp.so.1
 TEST_LIBS = -l:libcriterion.so.3
 # LIBS = -lcurl -ljson-c
 
