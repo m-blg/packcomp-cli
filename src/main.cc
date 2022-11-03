@@ -1,7 +1,7 @@
-#include "argp.h"
+#include <argp.h>
 
-#include "packcomp/packcomp.h"
-#include "string.h"
+#include <packcomp/packcomp.h>
+#include <string.h>
 
 #ifdef VERSION
 const char *argp_program_version = "packcomp " VERSION;
